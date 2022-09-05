@@ -11,7 +11,8 @@
 	<Grid Background="LightBlue">
 		<StackPanel Orientation="Vertical" >
 			<TextBlock x:Name="heading1TextBlock" Text="Universal Calculator" TextAlignment="Center" Margin="20" FontSize="81" FontStyle="Italic" FontWeight="Bold"></TextBlock>
-			<StackPanel Orientation="Vertical" Margin="10">
+			<StackPanel Orientation="Vertical" Height="830">
+
 
 				<Button x:Name="mathsButton" Content="Maths Calculator" HorizontalAlignment="Center" Margin="0,20,10,0" FontSize="30" Height="120" Width="400" Background="LightGreen" CornerRadius="40" Click="mathsButton_Click"></Button>
 				<Button x:Name="mortgageButton" Content="Mortgage Calculator" HorizontalAlignment="Center" Margin="0,50,10,0" FontSize="30" Width="400" Height="120" Background="LightGreen" CornerRadius="40" Click="mortgageButton_Click"></Button>
